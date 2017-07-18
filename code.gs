@@ -17,7 +17,7 @@ var settings = {
      * Replace this fake Gmail address with the Gmail (or G Suite/Google Apps) address of your
      * own Google Account. This is needed to retrieve information about your contacts.
      */
-    googleEmail: 'YOUREMAILHERE@gmail.com',
+    googleEmail: 'mdelapenya@gmail.com',
     /*
      * NOTIFICATION EMAIL ADDRESS
      *
@@ -25,7 +25,7 @@ var settings = {
      * to. This can be the same email address as 'googleEmail' on or any other email
      * address. Non-Gmail addresses are fine as well.
      */
-    notificationEmail: 'YOUREMEAILHERE@example.com',
+    notificationEmail: 'mdelapenya@gmail.com',
     /*
      * EMAIL SENDER NAME
      *
@@ -45,7 +45,7 @@ var settings = {
      * instructions: it's quite simple as long as you can translate from one of the available
      * languages.
      */
-    lang: 'en'
+    lang: 'es'
   },
   notifications: {
     /*
@@ -55,7 +55,7 @@ var settings = {
      * This must be an integer between 0 and 23. This will set and automatic trigger for
      * the script between e.g. 6 and 7 am.
      */
-    hour: 6,
+    hour: 10,
     /*
      * NOTIFICATION TIMEZONE
      *
@@ -65,7 +65,7 @@ var settings = {
      *  GMT (e.g. 'GMT-4', 'GMT+6')
      *  regional timezones (e.g. 'Europe/Berlin' - See here for a complete list: http://joda-time.sourceforge.net/timezones.html)
      */
-    timeZone: 'Europe/Rome',
+    timeZone: 'Europe/Madrid',
     /*
      * HOW MANY DAYS BEFORE EVENT
      *
@@ -82,7 +82,7 @@ var settings = {
      * Note: in any case you will receive one email per day: all the notifications will be grouped
      * together in that email.
      */
-    anticipateDays: [0, 1, 7],
+    anticipateDays: [0, 1],
     /*
      * TYPE OF EVENTS
      *
@@ -1434,7 +1434,8 @@ var i18n = {
     'Hey! Don\'t forget these events': 'Hey! No olvides estos eventos',
     'version': 'versión',
     'dd-MM-yyyy': 'dd-MM-yyyy',
-    'Mobile phone': 'Celular',
+    'send email now': 'enviar mail ahora',
+    'Mobile phone': 'Teléfono móvil',
     'Work phone': 'Teléfono del trabajo',
     'Home phone': 'Teléfono del hogar',
     'Main phone': 'Teléfono principal',
